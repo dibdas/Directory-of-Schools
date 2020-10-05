@@ -31,3 +31,10 @@
 .anywhere {
     background-color: #509bdb;
 }
+.footer{
+    background-color: black;
+}
+.footer-top-ul{
+    color: white;
+    list-style: none;
+}
