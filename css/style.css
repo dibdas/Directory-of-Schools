@@ -1,3 +1,17 @@
-.top-nav {
-    list-style: none;
+
+
+.main-image img{
+    width: 100%;
+    background-position: center;
+    background-size: auto;
+    height: 90vh;
+    filter: brightness(90%);
+}
+
+.main-text {
+    top: 38%;
+    margin-left:10%;
+  }
+.search-btn {
+    background-color: #e17f65;
 }
