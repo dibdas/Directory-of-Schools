@@ -12,6 +12,22 @@
     top: 38%;
     margin-left:10%;
   }
-.search-btn {
+.search-btn,
+.registered
+ {
     background-color: #e17f65;
+}
+.fs-btn-txt {
+    color:  #e17f65;
+}
+
+.search-row {
+    background-color: gray;
+}
+
+.registration{
+    color: white;
+}
+.anywhere {
+    background-color: #509bdb;
 }
