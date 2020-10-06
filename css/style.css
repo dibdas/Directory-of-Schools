@@ -1,6 +1,6 @@
 
 
-.main-image img{
+.learn-image img{
     width: 100%;
     background-position: center;
     background-size: auto;
@@ -8,7 +8,7 @@
     filter: brightness(90%);
 }
 
-.main-text {
+.over-text {
     top: 38%;
     margin-left:10%;
   }
@@ -28,13 +28,27 @@
 .registration{
     color: white;
 }
+
 .anywhere {
     background-color: #509bdb;
 }
+
 .footer{
     background-color: black;
 }
+
 .footer-top-ul{
     color: white;
     list-style: none;
+}
+
+.search-dropdown {
+    margin-top: 10%;
+}
+.g1 {
+    top:50%;
+    margin-left: 20%;
+}
+.cb img {
+    height: 100%;
 }
