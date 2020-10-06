@@ -1,6 +1,5 @@
 
-
-.learn-image img{
+.learn-image img {
     width: 100%;
     background-position: center;
     background-size: auto;
@@ -10,22 +9,24 @@
 
 .over-text {
     top: 38%;
-    margin-left:10%;
-  }
+    margin-left: 10%;
+}
+
 .search-btn,
-.registered
- {
+.search-btn2,
+.registered {
     background-color: #e17f65;
 }
+
 .fs-btn-txt {
-    color:  #e17f65;
+    color: #e17f65;
 }
 
 .search-row {
     background-color: gray;
 }
 
-.registration{
+.registration {
     color: white;
 }
 
@@ -33,11 +34,11 @@
     background-color: #509bdb;
 }
 
-.footer{
+.footer {
     background-color: black;
 }
 
-.footer-top-ul{
+.footer-top-ul {
     color: white;
     list-style: none;
 }
@@ -46,10 +47,12 @@
 .school-descrp {
     margin-top: 10%;
 }
+
 .g1 {
-    top:50%;
+    top: 50%;
     margin-left: 20%;
 }
+
 .cb img {
     height: 100%;
 }

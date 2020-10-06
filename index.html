@@ -21,27 +21,24 @@
 <body>
 
 
-
-    <nav class="navbar fixed-top navbar-light bg-light">
-        <a class="navbar-brand justify-content-center" href="#"><i class="fas fa-school fa-2x"></i> PATASHULA</a>
+    <nav class="d-flex flex-wrap align-content-md-center justify-content-between  fixed-top navbar-light bg-light px-5">
+        <div class="">
+            
+        <a class="navbar-brand " href="#"><i class="fas fa-school fa-2x"></i> PATASHULA</a>
+        </div>
+        
+            <ul class="d-flex list-unstyled  justify-content-between text-center">
+                <li class=" px-3 d-flex  pt-2"><a href="search.html" target="_blank" class="d-flex text-danger"><i class="fas fa-search "></i><span class="d-none d-lg-block ">SEARCH</span></li></a></li>
+                <li class="d-flex px-3  pt-2"><a href="about.html" target="_blank" class="d-flex text-danger"><i class="fa fa-user mt-1 mr-1"></i><span class="d-none d-lg-block">ABOUT</span></li></a></li>
+                
+                <li class="d-flex px-3  pt-2"><a href="index.html" target="_blank" class="d-flex text-danger"><i class="fa fa-rss mt-1 mr-1"></i><span class="d-none d-lg-block">BLOG</span></a></li>
+                <li class="d-flex px-3  pt-2 text-danger"><a href="#"></a><i class="fas fa-bars mt-1 mr-1"></i><span class="d-none d-lg-block">MORE</span></li>
+            </ul>
+            
+        
 
     </nav>
-    <!--
-          <nav class="d-flex navigation-bar bg-color0 px-5">
-            <div class="nohover-line">
-                <a href="index.html">
-                    <i class="fas fa-cubes fa-2x mr-2"></i>
-                    <span class="align-text-bottom">3DRENT</span>
-                </a>
-            </div>
-            <ul class="d-flex navigation-items list-unstyled nohover-line">
-                <li class="px-4"><a href="printers.html" target="_blank"><i class="fas px-1 fa-search"></i><span class="navigation-link">PRINTERS</span></a></li>
-                <li class="px-4"><a href="blog.html"><i class="fas px-1 fa-rss"></i><span class="navigation-link">BLOG</span></a></li>
-                <li class="px-4"><a href="about.html"><i class="far px-1 fa-user"></i><span class="navigation-link">ABOUT</span></a></li>
-                <li><a href="#"><i class="fas px-1 fa-bars"></i><span class="navigation-link">MORE</span></a></li>
-            </ul>
-        </nav>    
-    -->
+   
     <main>
         <div clas="container-fliud">
             <div class="learn-image">
@@ -53,21 +50,21 @@
                 <div class="bg-secondary main-btn rounded py-4 px-4">
                     <p class="mb-1 font-weight-bold">SEARCH BY KEY WORD:</p>
 
-                    <div class="input-group d-none d-md-flex bg-secondary">
+                    <div class="input-group d-flex flex-wrap bg-secondary ">
                         <input type="text" class="form-control">
                         <div class="input-group-append">
-                            <button class="btn btn-outline-secondary text-white  search-btn"
+                            <button class="btn btn-outline-secondary d-none d-lg-block d-md-block text-white  search-btn"
+                                type="button">SEARCH</button>
+                        </div>
+                        <div class="input-group-append d-none d-sm-block d-md-none d-block w-100">
+                            <button class="btn btn-outline-secondary text-white w-100 search-btn2"
                                 type="button">SEARCH</button>
                         </div>
                     </div>
 
-                    <div class="d-md-none d-block">
-                        <input type="text" class=" p-1 d-block w-100 mb-2">
-                        <button type="button" class="btn text-white  w-100">SEARCH</button>
-                    </div>
                 </div>
 
-                <div class="pt-5 text-center">
+                <div class="pt-4 text-center">
                     <button class="btn btn-light  font-weight-bold" type="button">How it works</button>
                 </div>
             </div>
