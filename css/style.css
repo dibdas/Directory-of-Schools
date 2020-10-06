@@ -42,7 +42,8 @@
     list-style: none;
 }
 
-.search-dropdown {
+.search-dropdown,
+.school-descrp {
     margin-top: 10%;
 }
 .g1 {
