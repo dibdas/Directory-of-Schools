@@ -22,7 +22,9 @@ To quickly see our project in action, visit the [live video](https://www.loom.co
 
 ## Getting Started
 
-This project is developed in HTML, CSS and bootstrap and will run in a web browser.
+This project is developed in HTML, CSS and bootstrap and will run in a web browser.Its s real world porject,built with specifications.The project is based obn online directory of schools.Following the design,the content is personalised.
+Three pages are built main page search page and detail of the school page.While developing the project linters are being 
+put into check.Demo link of the project is given.
 
 ### Prerequisites
 
