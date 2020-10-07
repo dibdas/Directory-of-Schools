@@ -1,0 +1,33 @@
+{
+  "name": "directory-of-schools",
+  "version": "1.0.0",
+  "description": "HTML &amp; CSS Capstone Project is based on an online directory of schools # Newsweek Clone",
+  "main": "stylelint.config.js",
+  "dependencies": {
+    "lint": "^0.7.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "stylelint": "^13.7.2"
+  },
+  "devDependencies": {
+    "hint": "^6.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dibdas/Directory-of-Schools.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dibdas/Directory-of-Schools/issues"
+  },
+  "homepage": "https://github.com/dibdas/Directory-of-Schools#readme",
+  "devDependencies": {
+    "hint": "^6.1.0",
+    "stylelint": "^13.7.2",
+    "stylelint-config-recommended": "^3.0.0"
+  }
+
+}

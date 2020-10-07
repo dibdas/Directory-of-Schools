@@ -1,58 +1,57 @@
-
 .learn-image img {
-    width: 100%;
-    background-position: center;
-    background-size: auto;
-    height: 90vh;
-    filter: brightness(90%);
+  width: 100%;
+  background-position: center;
+  background-size: auto;
+  height: 90vh;
+  filter: brightness(90%);
 }
 
 .over-text {
-    top: 38%;
-    margin-left: 10%;
+  top: 38%;
+  margin-left: 10%;
 }
 
 .search-btn,
 .search-btn2,
 .registered {
-    background-color: #e17f65;
+  background-color: #e17f65;
 }
 
 .fs-btn-txt {
-    color: #e17f65;
+  color: #e17f65;
 }
 
 .search-row {
-    background-color: gray;
+  background-color: gray;
 }
 
 .registration {
-    color: white;
+  color: white;
 }
 
 .anywhere {
-    background-color: #509bdb;
+  background-color: #509bdb;
 }
 
 .footer {
-    background-color: black;
+  background-color: black;
 }
 
 .footer-top-ul {
-    color: white;
-    list-style: none;
+  color: white;
+  list-style: none;
 }
 
 .search-dropdown,
 .school-descrp {
-    margin-top: 10%;
+  margin-top: 10%;
 }
 
 .g1 {
-    top: 50%;
-    margin-left: 20%;
+  top: 50%;
+  margin-left: 20%;
 }
 
 .cb img {
-    height: 100%;
+  height: 100%;
 }

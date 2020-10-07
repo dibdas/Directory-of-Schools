@@ -1,8 +1,8 @@
 # Directory-of-Schools
  HTML &amp; CSS Capstone Project is based on an online directory of schools
-# Newsweek Clone
+# Directory-of-Schools
 
-> It is a capstobne project i.e to build a website for directory of school.
+> It is a capstone project i.e to build a website for directory of school.
 
 
 ## Built With
@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-To quickly see our project in action, visit the [live demo]() on netlify.
+To quickly see our project in action, visit the [live demo](https://blissful-colden-e94c7f.netlify.app/) .
 
 ## Getting Started
 
@@ -38,7 +38,7 @@ To get this project up and running, you must have a browser on your computer.
 
 ## 🤝 Contributing
 
-The best way you can contribute to this project is by submitting an [issue]() to help us improve it!
+The best way you can contribute to this project is by submitting an [issue](https://github.com/dibdas/Directory-of-Schools/tree/feature-school-branch) to help us improve it!
 
 ## Show your support
 
