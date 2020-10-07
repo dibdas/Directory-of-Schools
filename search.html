@@ -43,7 +43,9 @@
     <main>
         <section class="search-dropdown  bg-light ">
             <div class="options mt-4 w-75 mx-auto">
+              <div class="para">
             <h3 class="pt-2 text-center text-muted para">Filter by name,country,education system,school level:</h3>
+            </div>
 
     <form class="d-flex justify-content-center justify-content-between options">
           
@@ -59,7 +61,7 @@
           </div>
           <div class="form-group ml-1">
             <label for="form-control-cntry">COUNTRY</label>
-            <select class="d-flex" id="form-control-cntry" name="form-control-cntry" >
+            <select class="d-flex col-12" id="form-control-cntry" name="form-control-cntry" >
             <option>u.s</option>
             <option>kenya</option>
             <option>nigeria</option>
@@ -69,7 +71,7 @@
           </div>
           <div class="form-group ml-1 mr-1">
             <label for="form-control-level">LEVEL</label>
-            <select class="d-flex" id="form-control-level" name="form-control-level">
+            <select class="d-flex col-12" id="form-control-level" name="form-control-level">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -79,7 +81,7 @@
           </div>
           <div class="form-group ml-1">
             <label for="form-control-type">TYPE</label>
-            <select class="d-flex" id="form-control-type" name="form-control-type" >
+            <select class="d-flex col-12" id="form-control-type" name="form-control-type" >
             <option>secondary</option>
             <option>high-secondary</option>
             <option>lower kg</option>
@@ -89,14 +91,14 @@
           </div>
           <div class="form-group ml-1">
             <label for="form-control-gender">GENDER</label>
-            <select class="d-flex" id="form-control-gender" name="form-control-gender">
+            <select class="d-flex col-12" id="form-control-gender" name="form-control-gender">
             <option>MALE</option>
             <option>FEMALE</option>
           </select>
           </div>
           <div class="form-group ml-1">
             <label for="form-control-curriculum">CURRICULUM</label>
-            <select class="d-flex" id="form-control-curriculum" name="form-control-curriculum">
+            <select class="d-flex col-12" id="form-control-curriculum" name="form-control-curriculum">
             <option>SCIENCE</option>
             <option>HUMANITIES</option>
             <option>ARTS</option>
@@ -106,26 +108,26 @@
           </div>
       </form>
             
-      <div class="d-flex justify-content-center w-25 mx-auto my-4" role="group" aria-label="Third group">
-        <button type="button" class="btn btn-warning"><i class="far fa-trash-alt"></i> clear filters</button>
-        <button type="button" class="btn btn-secondary ml-1">Search</button>
+      <div class="d-flex filters-search justify-content-center w-25 mx-auto my-4" role="group" aria-label="Third group">
+        <button type="button" class="btn btn-warning filters"><i class="far fa-trash-alt"></i> clear filters</button>
+        <button type="button" class="btn btn-secondary search ml-1">Search</button>
       </div>
 </div>
 </section>
 
 <div class ="container ">
     <h3 class="text-center">Search results for schools:</h3>
-    <div class="row justify-content-between mt-4 pt-4 h-100">
-        <div class="col-4 border border-white lmr">
+    <div class="row justify-content-between  grid-images mt-4 pt-4 h-100">
+        <div class="col-4 lmr">
            
           <img class="w-100 h-100" src="images/lmr.jpeg" alt="...">
          
         </div>
         
-        <div class="col-4 cb border border-white">
-          <img class="img-fluid w-100 h-100" src="images/cb.jpeg" alt="...">
+        <div class="col-4 cb ">
+          <img class="img-fluid w-100 h-100 img-responsive" src="images/cb.jpeg" alt="...">
         </div>
-        <div class="col-4 cg">
+        <div class="col-4 cg ">
             <img class="img-fluid h-100" src="images/cg.jpeg" alt="...">
             </div>
             

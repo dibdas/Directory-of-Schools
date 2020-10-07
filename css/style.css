@@ -57,24 +57,32 @@
 }
 
 @media screen and (max-width: 320px) {
+  .search-dropdown {
+  margin-top: 10%;
+  }
   .para {
-    display: flex;
-    margin-top: 40%;
-    width: auto;
+    font-size: small;
+    margin-top:20em;
   }
  .options{
    display:flex;
    flex-direction: column;
  }
+ .grid-images {
+  display:flex;
+  flex-direction: column;
+}
+ 
 }
 @media screen and (max-width: 768px) {
   .para {
     display: flex;
-    margin-top: 20%;
+    margin-top:1em;
     width: auto;
   }
   .options{
     display: flex;
     flex-direction: column;
   }
+ 
 }
