@@ -4,16 +4,21 @@
 
 > It is a capstone project i.e to build a website for directory of school.
 
+[screenshot]![image](https://user-images.githubusercontent.com/40272384/95353934-76e03100-08e1-11eb-9471-0bc37994d67d.png)
 
 ## Built With
 
 - HTML5
-- CSS3
+- CSS3-FLEXBOX
+- CSS-GRID
 - BOOTSTRAP 4
+- MEDIA QUERIES 
 
 ## Live Demo
 
 To quickly see our project in action, visit the [live demo](https://blissful-colden-e94c7f.netlify.app/) .
+To quickly see our project in action, visit the [live video](https://www.loom.com/share/d740465fc49442ff8be89f812b35b269) .
+
 
 ## Getting Started
 
