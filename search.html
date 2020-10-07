@@ -19,27 +19,26 @@
         <title>directory of school</title>
 </head>
 <body>
-    <header>
+    
+<header>
+  <nav class="d-flex flex-wrap align-content-md-center justify-content-between  fixed-top navbar-light bg-light px-5">
+      <div class="">
+          
+      <a class="navbar-brand " href="#"><i class="fas fa-school fa-2x"></i> PATASHULA</a>
+      </div>
+      
+          <ul class="d-flex list-unstyled  justify-content-between text-center">
+              <li class=" px-3 d-flex  pt-2"><a href="search.html" target="_blank" class="d-flex text-danger"><i class="fas fa-search "></i><span class="d-none d-lg-block ">SEARCH</span></a></li>
+              <li class="d-flex px-3  pt-2"><a href="about.html" target="_blank" class="d-flex text-danger"><i class="fa fa-user mt-1 mr-1"></i><span class="d-none d-lg-block">ABOUT</span></a></li>
+              
+              <li class="d-flex px-3  pt-2"><a href="index.html" target="_blank" class="d-flex text-danger"><i class="fa fa-rss mt-1 mr-1"></i><span class="d-none d-lg-block">BLOG</span></a></li>
+              <li class="d-flex px-3  pt-2 text-danger"><a href="#"></a><i class="fas fa-bars mt-1 mr-1"></i><span class="d-none d-lg-block">MORE</span></li>
+          </ul>
+          
+      
 
-      <nav class="d-flex flex-wrap align-content-md-center justify-content-between  fixed-top navbar-light bg-light px-5">
-        <div class="">
-            
-        <a class="navbar-brand " href="#"><i class="fas fa-school fa-2x"></i> PATASHULA</a>
-        </div>
-        
-            <ul class="d-flex list-unstyled  justify-content-between text-center">
-                <li class=" px-3 d-flex  pt-2"><a href="search.html" target="_blank" class="d-flex text-danger"><i class="fas fa-search "></i><span class="d-none d-lg-block ">SEARCH</span></a></li>
-                <li class="d-flex px-3  pt-2"><a href="about.html" target="_blank" class="d-flex text-danger"><i class="fa fa-user mt-1 mr-1"></i><span class="d-none d-lg-block">ABOUT</span></a></li>
-                
-                <li class="d-flex px-3  pt-2"><a href="index.html" target="_blank" class="d-flex text-danger"><i class="fa fa-rss mt-1 mr-1"></i><span class="d-none d-lg-block">BLOG</span></a></li>
-                <li class="d-flex px-3  pt-2 text-danger"><a href="#"></a><i class="fas fa-bars mt-1 mr-1"></i><span class="d-none d-lg-block">MORE</span></li>
-            </ul>
-            
-        
-
-    </nav>
-   
-    </header>
+  </nav>
+  </header>
 
     <main>
         <section class="search-dropdown  bg-light ">
@@ -49,8 +48,8 @@
     <form class="d-flex justify-content-center justify-content-between">
           
          <div class="form-group ml-1">
-            <label for="form-control" id="sc-name" >SCHOOL NAME</label>
-          <select class="d-flex" id="ggh">
+            <label for="form-control-name" >SCHOOL NAME</label>
+          <select class="d-flex" id="form-control-name" name="form-control-name">
             <option>stephens</option>
             <option>annie basent</option>
             <option>geogie</option>
@@ -59,8 +58,8 @@
           </select>
           </div>
           <div class="form-group ml-1">
-            <label for="form-control" id="cntry">COUNTRY</label>
-            <select class="d-flex" id="kkk" >
+            <label for="form-control-cntry">COUNTRY</label>
+            <select class="d-flex" id="form-control-cntry" name="form-control-cntry" >
             <option>u.s</option>
             <option>kenya</option>
             <option>nigeria</option>
@@ -69,8 +68,8 @@
           </select>
           </div>
           <div class="form-group ml-1 mr-1">
-            <label for="form-control"id="level" >LEVEL</label>
-            <select class="d-flex">
+            <label for="form-control-level">LEVEL</label>
+            <select class="d-flex" id="form-control-level" name="form-control-level">
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -79,8 +78,8 @@
           </select>
           </div>
           <div class="form-group ml-1">
-            <label for="form-control" id="type">TYPE</label>
-          <select class="d-flex" >
+            <label for="form-control-type">TYPE</label>
+            <select class="d-flex" id="form-control-type" name="form-control-type" >
             <option>secondary</option>
             <option>high-secondary</option>
             <option>lower kg</option>
@@ -89,15 +88,15 @@
           </select>
           </div>
           <div class="form-group ml-1">
-            <label for="form-control">GENDER</label>
-          <select class="d-flex" id="gender">
+            <label for="form-control-gender">GENDER</label>
+            <select class="d-flex" id="form-control-gender" name="form-control-gender">
             <option>MALE</option>
             <option>FEMALE</option>
           </select>
           </div>
           <div class="form-group ml-1">
-            <label for="form-control" id="curiculum">CURRICULUM</label>
-          <select class="d-flex" >
+            <label for="form-control-curriculum">CURRICULUM</label>
+            <select class="d-flex" id="form-control-curriculum" name="form-control-curriculum">
             <option>SCIENCE</option>
             <option>HUMANITIES</option>
             <option>ARTS</option>
@@ -144,7 +143,7 @@
     </main>
 
     <footer>
-      <div class ="container-fliud footer ">
+      <div class ="container-fliud footer mt-4">
           <div class="row  border border-white w-100 mx-auto">
               <nav class="navbar navbar-expand-lg navbar-light text-white my-3 mx-auto">
                   
