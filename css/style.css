@@ -55,3 +55,26 @@
 .cb img {
   height: 100%;
 }
+
+@media screen and (max-width: 320px) {
+  .para {
+    display: flex;
+    margin-top: 40%;
+    width: auto;
+  }
+ .options{
+   display:flex;
+   flex-direction: column;
+ }
+}
+@media screen and (max-width: 768px) {
+  .para {
+    display: flex;
+    margin-top: 20%;
+    width: auto;
+  }
+  .options{
+    display: flex;
+    flex-direction: column;
+  }
+}
