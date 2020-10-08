@@ -62,7 +62,6 @@
   flex: 25%;
   max-width: 25%;
   padding: 0 4px;
- 
 }
 
 .column-image img {
@@ -130,12 +129,10 @@
     flex: 100%;
     max-width: 100%;
   }
-  
 }
 
-@media screen and (max-width :500px){
+@media screen and (max-width: 500px) {
   .st {
-    margin-top:3em;
+    margin-top: 3em;
   }
-
 }
