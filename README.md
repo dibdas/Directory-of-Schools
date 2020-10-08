@@ -1,10 +1,10 @@
-# Directory-of-Schools
- HTML &amp; CSS Capstone Project is based on an online directory of schools
+
+
 # Directory-of-Schools
 
 > It is a capstone project i.e to build a website for directory of school.
 
-[screenshot]![image](https://user-images.githubusercontent.com/40272384/95353934-76e03100-08e1-11eb-9471-0bc37994d67d.png)
+![image](https://user-images.githubusercontent.com/40272384/95353934-76e03100-08e1-11eb-9471-0bc37994d67d.png)
 
 ## Built With
 
@@ -25,6 +25,7 @@ To quickly see our project in action, visit the [live video](https://www.loom.co
 This project is developed in HTML, CSS and bootstrap and will run in a web browser.Its s real world porject,built with specifications.The project is based obn online directory of schools.Following the design,the content is personalised.
 Three pages are built main page search page and detail of the school page.While developing the project linters are being 
 put into check.Demo link of the project is given.
+Special thanks to the owner of the project Mathew Njuguna.
 
 ### Prerequisites
 
