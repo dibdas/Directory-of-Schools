@@ -128,4 +128,12 @@
     flex: 100%;
     max-width: 100%;
   }
+  
+}
+
+@media screen and (max-width :500px){
+  .st {
+    margin-top:3em;
+  }
+
 }
