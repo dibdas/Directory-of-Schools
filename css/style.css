@@ -1,0 +1,138 @@
+.learn-image img {
+  width: 100%;
+  background-position: center;
+  background-size: auto;
+  height: 90vh;
+  filter: brightness(90%);
+}
+
+.over-text {
+  top: 30%;
+  margin-left: 10%;
+}
+
+.search-btn,
+.search-btn2,
+.registered {
+  background-color: #e17f65;
+}
+
+.fs-btn-txt {
+  color: #e17f65;
+}
+
+.search-row {
+  background-color: gray;
+}
+
+.registration {
+  color: white;
+}
+
+.anywhere {
+  background-color: #509bdb;
+}
+
+.footer {
+  background-color: black;
+}
+
+.footer-top-ul {
+  color: white;
+  list-style: none;
+}
+
+.search-dropdown,
+.school-descrp {
+  margin-top: 10%;
+}
+
+.g1 {
+  top: 50%;
+  margin-left: 20%;
+}
+
+.grid-row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column-image {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column-image img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  min-height: 100%;
+}
+
+@media screen and (max-width: 320px) {
+  .search-dropdown {
+    margin-top: 10%;
+  }
+
+  .para {
+    font-size: small;
+    padding-top: 5em;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .logo {
+    padding-left: 1em;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .para {
+    display: flex;
+    margin-top: 2em;
+    width: auto;
+  }
+
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .over-text {
+    top: 20%;
+    font-size: 10px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+
+  .i-h-1 {
+    font-size: 20px;
+    font-weight: 100;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .column-image {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column-image {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .st {
+    margin-top: 3em;
+  }
+}
